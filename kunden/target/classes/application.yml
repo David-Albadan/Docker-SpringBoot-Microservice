@@ -1,0 +1,22 @@
+sever:
+  port: 8080
+
+spring:
+  application:
+    name: kunden
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: 'true'
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+  datasource:
+    username: amigoscode
+    password: password
+    url: jdbc:postgresql://localhost:5432/kunden
+
+
+
+
